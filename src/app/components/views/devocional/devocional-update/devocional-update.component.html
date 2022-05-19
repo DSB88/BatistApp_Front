@@ -1,0 +1,45 @@
+<form>
+    <h1>ATUALIZANDO DEVOCIONAL</h1>
+
+    <mat-form-field class="form">
+        <mat-label>Título Devocional</mat-label>
+        <input matInput [(ngModel)]="devocional.tituloDevocional" type="text" name="tituloDevocional"
+ placeholder="Ex. Fé inabalável">
+    </mat-form-field>
+
+    <mat-form-field class="form">
+        <mat-label>Texto Versículo</mat-label>
+        <textarea matInput [(ngModel)]="devocional.textoVersiculo" type="text" name="textoVersiculo"
+ placeholder="Ex. Vale de Ossos Secos"></textarea>
+    </mat-form-field>
+
+    <mat-form-field class="form">
+        <mat-label>Texto Devocional</mat-label>
+        <textarea matInput [(ngModel)]="devocional.textoDevocional" type="text" name="textoDevocional"
+ placeholder="Ex. O profeta Ezequiel recebe o chamado de Deus e se vê no Vale dos Ossos Secos."></textarea>
+    </mat-form-field>
+
+    <mat-form-field class="form">
+        <mat-label>Texto de Oração</mat-label>
+        <textarea matInput [(ngModel)]="devocional.textoOracao" type="text" name="textoOracao"
+ placeholder="Ex. Oremos para que a graça de Deus..."></textarea>
+    </mat-form-field>
+
+    <mat-form-field class="form">
+        <mat-label>Data do Post</mat-label>
+        <textarea matInput [(ngModel)]="devocional.dataPostagem" type="text" name="dataPostagem"
+ placeholder="Ex. 18/05/2022"></textarea>
+    </mat-form-field>
+
+    <mat-form-field class="form">
+        <mat-label>Hora do Post</mat-label>
+        <textarea matInput [(ngModel)]="devocional.horaPostagem" type="text" name="horaPostagem"
+ placeholder="Ex. 17:00"></textarea>
+    </mat-form-field>
+
+    <div class="buttons">
+        <button (click)="update()" class="mat-elevation-z8" mat-stroked-button color="primary"> ATUALIZAR </button>
+        <button (click)="cancel()" class="mat-elevation-z8" mat-stroked-button color="warn"> CANCELAR </button>
+    </div>
+
+</form>

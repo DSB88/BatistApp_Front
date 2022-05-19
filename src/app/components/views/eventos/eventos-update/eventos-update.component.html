@@ -1,0 +1,33 @@
+<form>
+    <h1>ATUALIZANDO EVENTO</h1>
+
+   <mat-form-field class="form">
+        <mat-label>Nome do Evento</mat-label>
+        <input matInput [(ngModel)]="eventos.nome" type="text" name="nome"
+ placeholder="Ex. Tarde com Cristo">
+    </mat-form-field>
+
+    <mat-form-field class="form">
+        <mat-label>Local do Evento</mat-label>
+        <textarea matInput [(ngModel)]="eventos.local" type="text" name="local"
+ placeholder="Ex. Rua Brasil numero 00"></textarea>
+    </mat-form-field>
+
+   <mat-form-field class="form">
+        <mat-label>Data do Evento</mat-label>
+        <textarea matInput [(ngModel)]="eventos.data" type="text" name="data"
+ placeholder="Ex. 15/02/2022"></textarea>
+    </mat-form-field>  
+
+   <mat-form-field class="form">
+        <mat-label>Horário do Evento</mat-label>
+        <textarea matInput [(ngModel)]="eventos.horario" type="text" name="horario"
+ placeholder="Ex. 15:00"></textarea>
+    </mat-form-field>  
+
+    <div class="buttons">
+        <button (click)="update()" class="mat-elevation-z8" mat-stroked-button color="primary"> ATUALIZAR </button>
+        <button (click)="cancel()" class="mat-elevation-z8" mat-stroked-button color="warn"> CANCELAR </button>
+    </div>
+
+</form>
