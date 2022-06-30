@@ -1,5 +1,31 @@
 # Batistapp
 
+### A Aplicação está na nuvem o Front-End está hospedado no site Netlify
+no endereço: 
+#### https://batistapp.netlify.app/
+
+### O Back-End (API REST) se encontra hospedado no Heroku
+no endereço: 
+#### ENDPOINT-Devocional: https://batistapp-api.herokuapp.com/api/v1/devocional
+#### ENDPOINT-Eventos: https://batistapp-api.herokuapp.com/api/v1/eventos
+             
+## <p align="center">Imagens do site na nuvem</p>
+             
+<p align="center"><strong>-Página Home</strong></p>
+<img align="left" src="img/home.jpg" /><br>
+
+<p align="center"><strong>-Página Devocional</strong></p>
+<img align="left" src="img/Devocional.jpg" />
+
+<p align="center"><strong>-Página Criação Devocional</strong></p>
+<img align="left" src="img/Devocional_Create.jpg" />
+
+<p align="center"><strong>-Página Eventos</strong></p>
+<img align="left" src="img/Eventos.jpg" />
+
+<p align="center"><strong>-Página Criação Eventos</strong></p>
+<img align="left" src="img/Eventos_Create.jpg" />
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5.
 
 ## Development server
